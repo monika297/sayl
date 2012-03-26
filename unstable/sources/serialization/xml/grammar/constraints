@@ -1,0 +1,19 @@
+
+Element Type Match  
+  The Name in an element's end-tag must match the element type in the start-tag.
+
+Unique Attribute
+  No attribute name may appear more than once in the same start-tag or empty-element tag.
+
+No < in Attribute Values  
+  The replacement text of any entity referred to directly or indirectly in an attribute value (other than "&lt;") must not contain a <.
+
+Legal Character  
+  Characters referred to using character references must match the production for Char.
+
+Leading "XML"  
+  Prefixes beginning with the three-letter sequence x, m, l, in any case combination, are reserved for use by XML and XML-related specifications.
+
+Prefix Declared  
+  The namespace prefix, unless it is xml or xmlns, must have been declared in a namespace declaration attribute in either the start-tag of the element where the prefix is used or in an ancestor element (i.e., an element in whose content the prefixed markup occurs). The prefix xml is by definition bound to the namespace name http://www.w3.org/XML/1998/namespace. The prefix xmlns is used only for namespace bindings and is not itself bound to any namespace name.
+
